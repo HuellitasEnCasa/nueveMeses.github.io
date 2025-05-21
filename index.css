@@ -363,7 +363,7 @@ button:hover {
 /* Responsive */
 @media (max-width: 600px) {
     h1 {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
     .subtext {
         font-size: 1.4rem;
