@@ -10,7 +10,7 @@ body {
     );
     background-size: 400% 400%;
     animation: gradientShift 20s ease infinite;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Quicksand", sans-serif;
     text-align: center;
     padding: 2rem;
     margin: 0;
@@ -38,6 +38,7 @@ h1 {
     font-size: 2.5rem;
     color: #d63384;
     margin-bottom: 0.5rem;
+    font-family: "Dancing Script", cursive;
 }
 
 .subtext {
@@ -362,14 +363,14 @@ button:hover {
 /* Responsive */
 @media (max-width: 600px) {
     h1 {
-        font-size: 1.8rem;
+        font-size: 2.6rem;
     }
     .subtext {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     button {
         width: 90%;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .gallery img {
         max-width: 90%;

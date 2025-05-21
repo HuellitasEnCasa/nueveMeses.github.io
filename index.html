@@ -1,39 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>aniversario</title>
-    <link rel="stylesheet" href="index.css" />
-    <script defer src="index.js"></script>
-</head>
-<body>
-    <div class="heart-container" id="heartContainer"></div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>aniversario</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
 
-    <div class="container">
-        <h1>❤️ Feliz 9 meses ❤️</h1>
-        <p class="subtext">Gracias por estos hermosos momentos juntos.</p>
+        <link rel="stylesheet" href="index.css" />
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <div class="heart-container" id="heartContainer"></div>
 
-        <button id="showMessage">Ver mensaje</button>
+        <div class="container">
+            <h1>❤️ Feliz 9 meses ❤️</h1>
+            <p class="subtext">Gracias por estos hermosos momentos juntos.</p>
 
-        <div class="flower-frame hidden" id="hiddenMessage">
-            <img src="./assets/flower-right-top.png" class="flower top-left" />
-            <img src="./assets/flower-left-top.png" class="flower top-right" />
-            <img src="./assets/flower-right-bottom.png" class="flower bottom-left" />
-            <img src="./assets/flower-left-bottom.png" class="flower bottom-right" />
-            <span id="typedText" class="typed-text"></span>
+            <button id="showMessage">Ver mensaje</button>
+
+            <div class="flower-frame hidden" id="hiddenMessage">
+                <img
+                    src="./assets/flower-right-top.png"
+                    class="flower top-left"
+                />
+                <img
+                    src="./assets/flower-left-top.png"
+                    class="flower top-right"
+                />
+                <img
+                    src="./assets/flower-right-bottom.png"
+                    class="flower bottom-left"
+                />
+                <img
+                    src="./assets/flower-left-bottom.png"
+                    class="flower bottom-right"
+                />
+                <span id="typedText" class="typed-text"></span>
+            </div>
+
+            <div class="gallery">
+                <img
+                    src="./assets/WhatsApp Image 2025-05-17 at 17.12.04.jpeg"
+                    alt="Nosotros"
+                />
+                <img src="./assets/segunda.jpeg" alt="Momentos felices" />
+                <img src="./assets/tercera.jpeg" alt="Amor eterno" />
+            </div>
+
+            <button id="loveButton">Te amo ❤️</button>
+            <p id="loveMessage"></p>
+
+            <div class="flower-container hidden" id="flowerBouquet"></div>
         </div>
-
-        <div class="gallery">
-            <img src="./assets/WhatsApp Image 2025-05-17 at 17.12.04.jpeg" alt="Nosotros" />
-            <img src="./assets/segunda.jpeg" alt="Momentos felices" />
-            <img src="./assets/tercera.jpeg" alt="Amor eterno" />
-        </div>
-
-        <button id="loveButton">Te amo ❤️</button>
-        <p id="loveMessage"></p>
-
-        <div class="flower-container hidden" id="flowerBouquet"></div>
-    </div>
-</body>
+    </body>
 </html>
