@@ -12,7 +12,7 @@ document.getElementById("showMessage").addEventListener("click", function () {
     } else {
         msg.classList.add("show");
         typedText.textContent = "";
-        typeLetterByLetter(); // empieza a escribir
+        typeLetterByLetter();
     }
 });
 
@@ -42,11 +42,17 @@ loveButton.addEventListener("click", function () {
 
     clickCount++;
     if (clickCount === 9) {
-        flowerBouquet.innerHTML = ""; // limpiar anteriores
+        flowerBouquet.innerHTML = "";
 
-        for (let i = 0; i < 3; i++) {
+        for (let i = 0; i < 5; i++) {
             const flower = document.createElement("div");
             flower.classList.add("bouquet-flower");
+
+            for (let j = 0; j < 5; j++) {
+                const petal = document.createElement("span");
+                flower.appendChild(petal);
+            }
+
             flowerBouquet.appendChild(flower);
         }
 
@@ -56,8 +62,8 @@ loveButton.addEventListener("click", function () {
         setTimeout(() => {
             flowerBouquet.classList.add("hidden");
             flowerBouquet.classList.remove("show");
-            flowerBouquet.innerHTML = ""; // opcional: limpiar
-        }, 5000); // oculta después de 5s
+            flowerBouquet.innerHTML = "";
+        }, 5000);
     }
 });
 
