@@ -93,10 +93,10 @@ setInterval(createHeart, 300);
 const typedText = document.getElementById("typedText");
 const message = `Mi reina:
 
-Hoy celebramos 9 meses juntos. Cada momento contigo ha sido un regalo.
+Hoy celebramos 1 año juntos. Cada momento contigo ha sido un regalo.
 
 Gracias por ser mi compañera, por tus sonrisas, tu paciencia y tu amor. 
-Espero seguir caminando a tu lado por muchos meses más 
+Espero seguir caminando a tu lado por muchos años más 
 
 Te amo.`;
 
