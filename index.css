@@ -158,7 +158,7 @@ button:hover {
     white-space: pre-wrap;
     border-right: 2px solid #c2185b;
     display: inline;
-    animation: blinkCursor 0.8s step-start infinite;
+    animation: blinkCursor .2s ease infinite;
 }
 
 @keyframes blinkCursor {
